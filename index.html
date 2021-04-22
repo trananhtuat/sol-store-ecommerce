@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Sol Store Cosmetic
+    </title>
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- BOXICONS -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <!-- GLIDEJS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.min.css">
+    <!-- APP CSS -->
+    <link rel="stylesheet" href="/css/grid.css">
+    <link rel="stylesheet" href="/css/app.css">
+</head>
+
+<body>
+
+    <!-- NAV -->
+    <div class="nav-wrapper">
+        <div class="container-fluid">
+            <div class="nav">
+                <a href="#" class="logo">
+                    <img src="/images/logo.png" alt="">
+                </a>
+                <ul class="nav-menu menu-main">
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">shop</a></li>
+                    <li><a href="#">product</a></li>
+                    <li><a href="#">blog</a></li>
+                    <li><a href="#">about us</a></li>
+                </ul>
+                <ul class="nav-menu">
+                    <li>
+                        <a href="#"><i class='bx bx-search'></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class='bx bx-shopping-bag'></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class='bx bx-user'></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- END NAV -->
+
+    <!-- HERO SECTION -->
+    <div class="hero-section">
+        <div class="row">
+            <div class="col-4">
+                <div class="slide-info-wrapper">
+                    <!-- SLIDE INFO -->
+                    <div class="slide-info active">
+                        <div class="slide-name">
+                            <h3 class="top-down delay-2">
+                                Louboutin Velvet Matte
+                            </h3>
+                        </div>
+                        <div class="slide-description">
+                            <p class="top-down delay-4">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi adipisci vitae iusto atque quo optio voluptas corrupti, maxime totam facilis veniam rerum sapiente dolor. Deserunt amet quisquam dignissimos obcaecati mollitia.
+                            </p>
+                        </div>
+                        <div class="slide-action">
+                            <a href="#" class="btn btn-lg top-down delay-6">
+                                shop now
+                            </a>
+                        </div>
+                    </div>
+                    <!-- END SLIDE INFO -->
+                    <!-- SLIDE INFO -->
+                    <div class="slide-info">
+                        <div class="slide-name">
+                            <h3 class="top-down delay-2">
+                                Tom Ford RUBY RUSH
+                            </h3>
+                        </div>
+                        <div class="slide-description">
+                            <p class="top-down delay-4">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi adipisci vitae iusto atque quo optio voluptas corrupti, maxime totam facilis veniam rerum sapiente dolor. Deserunt amet quisquam dignissimos obcaecati mollitia.
+                            </p>
+                        </div>
+                        <div class="slide-action">
+                            <a href="#" class="btn btn-lg top-down delay-6">
+                                shop now
+                            </a>
+                        </div>
+                    </div>
+                    <!-- END SLIDE INFO -->
+                    <!-- SLIDE INFO -->
+                    <div class="slide-info">
+                        <div class="slide-name">
+                            <h3 class="top-down delay-2">
+                                Gucci 505 Janet Rust
+                            </h3>
+                        </div>
+                        <div class="slide-description">
+                            <p class="top-down delay-4">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi adipisci vitae iusto atque quo optio voluptas corrupti, maxime totam facilis veniam rerum sapiente dolor. Deserunt amet quisquam dignissimos obcaecati mollitia.
+                            </p>
+                        </div>
+                        <div class="slide-action">
+                            <a href="#" class="btn btn-lg top-down delay-6">
+                                shop now
+                            </a>
+                        </div>
+                    </div>
+                    <!-- END SLIDE INFO -->
+                </div>
+
+            </div>
+            <div class="col-8 slide-img-col">
+                <div class="slide-img-wrapper">
+                    <div class="slide-img" id="slide-img">
+                        <img src="images/products/christianlouboutin-rougelouboutin-velvet-matte-2.png" alt="">
+                        <img src="images/products/Tom-Ford-RUBY-RUSH.png" alt="">
+                        <img src="images/products/son-gucci-505-Janet-Rust-Mat-Lipstick.png" alt="">
+                    </div>
+                </div>
+                <div class="hero-slide-toggle">
+                    <div class="hero-slide-toggle-prev" id="hero-slide-toggle-prev">
+                        <i class='bx bx-left-arrow-alt'></i>
+                    </div>
+                    <div class="hero-slide-index" id="hero-slide-index">
+                        1/3
+                    </div>
+                    <div class="hero-slide-toggle-next" id="hero-slide-toggle-next">
+                        <i class='bx bx-right-arrow-alt'></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END HERO SECTION -->
+
+    <!-- BANNER SECTION -->
+    <div class="section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-4">
+                    <div class="banner">
+                        <div class="banner-bg" style="background-image: url(/images/banner/andriyko-podilnyk-F4AMM1293ag-unsplash.jpg);"></div>
+                        <div class="banner-overlay"></div>
+                        <div class="banner-text">
+                            <h3>summer collection</h3>
+                            <a href="#" class="btn">
+                                shop now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="banner">
+                        <div class="banner-bg" style="background-image: url(/images/banner/marek-studzinski-mzstXkKH8DI-unsplash.jpg);"></div>
+                        <div class="banner-overlay"></div>
+                        <div class="banner-text">
+                            <h3>tom ford collection</h3>
+                            <a href="#" class="btn">
+                                shop now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-5">
+                    <div class="banner">
+                        <div class="banner-bg" style="background-image: url(/images/banner/andrey-zvyagintsev-XM8OXHhzOsU-unsplash.jpg);"></div>
+                        <div class="banner-overlay"></div>
+                        <div class="banner-text">
+                            <h3>marvelous super collection</h3>
+                            <a href="#" class="btn">
+                                shop now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END BANNER SECTION -->
+
+    <!-- NEW ARRIVAL SECTION -->
+    <div class="section">
+        <div class="section-header">
+            <span class="main-color">n</span>ew arrivals
+        </div>
+        <div class="container-fluid">
+            <div class="products-slide">
+                <div class="glide">
+                    <div class="glide__track" data-glide-el="track">
+                        <ul class="glide__slides">
+                            <li class="glide__slide">
+                                <div class="product">
+                                    <div class="product-img" data-img-1="images/products/Tom-Ford-RUBY-RUSH.png" data-img-2="images/products/Tom-Ford-RUBY-RUSH-2.png">
+                                        <div class="product-action">
+                                            <a href="" class="btn">
+                                                add to cart
+                                            </a>
+                                            <a href="" class="btn">
+                                                view detail
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <a href="#" class="product-info">
+                                        <div class="product-brand">
+                                            <span>Tom Ford</span>
+                                            <div class="rating">
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star-half'></i>
+                                            </div>
+                                        </div>
+                                        <div class="product-name">
+                                            Tom Ford RUBY RUSH
+                                        </div>
+                                        <div class="product-price">
+                                            <del>$130.00</del> <span class="main-color">$125.00</span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="glide__slide">
+                                <div class="product">
+                                    <div class="product-img" data-img-1="images/products/christianlouboutin-rougelouboutin-velvet-matte.png" data-img-2="images/products/christianlouboutin-rougelouboutin-velvet-matte-1.png">
+                                        <div class="product-action">
+                                            <a href="" class="btn">
+                                                add to cart
+                                            </a>
+                                            <a href="" class="btn">
+                                                view detail
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="product-info">
+                                        <div class="product-brand">
+                                            <span>Louboutin</span>
+                                            <div class="rating">
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star-half'></i>
+                                            </div>
+                                        </div>
+                                        <div class="product-name">
+                                            Rouge Louboutin Velvet Matte
+                                        </div>
+                                        <div class="product-price">
+                                            <del>$130.00</del> <span class="main-color">$125.00</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="glide__slide">
+                                <div class="product">
+                                    <div class="product-img" data-img-1="images/products/son-gucci-505-Janet-Rust-Mat-Lipstick.png" data-img-2="images/products/son-gucci-505-Janet-Rust-Mat-Lipstick-2.png">
+                                        <div class="product-action">
+                                            <a href="" class="btn">
+                                                add to cart
+                                            </a>
+                                            <a href="" class="btn">
+                                                view detail
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="product-info">
+                                        <div class="product-brand">
+                                            <span>GUCCI</span>
+                                            <div class="rating">
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star-half'></i>
+                                            </div>
+                                        </div>
+                                        <div class="product-name">
+                                            GUCCI 505 Janet Rust Mat
+                                        </div>
+                                        <div class="product-price">
+                                            <del>$130.00</del> <span class="main-color">$125.00</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="glide__slide">
+                                <div class="product">
+                                    <div class="product-img" data-img-1="images/products/son-kem-ysl-425.png" data-img-2="images/products/son-kem-ysl-425-2.png">
+                                        <div class="product-action">
+                                            <a href="" class="btn">
+                                                add to cart
+                                            </a>
+                                            <a href="" class="btn">
+                                                view detail
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="product-info">
+                                        <div class="product-brand">
+                                            <span>YSL</span>
+                                            <div class="rating">
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star-half'></i>
+                                            </div>
+                                        </div>
+                                        <div class="product-name">
+                                            YSL 425
+                                        </div>
+                                        <div class="product-price">
+                                            <del>$130.00</del> <span class="main-color">$125.00</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="glide__slide">
+                                <div class="product">
+                                    <div class="product-img" data-img-1="images/products/Son-Dior-Rouge-634-Strong-Matte.png" data-img-2="images/products/Son-Dior-Rouge-634-Strong-Matte-2.png">
+                                        <div class="product-action">
+                                            <a href="" class="btn">
+                                                add to cart
+                                            </a>
+                                            <a href="" class="btn">
+                                                view detail
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="product-info">
+                                        <div class="product-brand">
+                                            <span>Dior Rouge 634 Strong Matte</span>
+                                            <div class="rating">
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star-half'></i>
+                                            </div>
+                                        </div>
+                                        <div class="product-name">
+                                            YSL 425
+                                        </div>
+                                        <div class="product-price">
+                                            <del>$130.00</del> <span class="main-color">$125.00</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="glide__arrows" data-glide-el="controls">
+                        <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+                            <i class='bx bx-chevron-left'></i>
+                        </button>
+                        <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+                            <i class='bx bx-chevron-right'></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END NEW ARRIVAL SECTION -->
+
+    <!-- TOP SELLERS SECTION -->
+    <div class="section">
+        <div class="section-header">
+            <span class="main-color">t</span>op sellers
+        </div>
+        <div class="container-fluid">
+            <div class="products-slide">
+                <div class="glide">
+                    <div class="glide__track" data-glide-el="track">
+                        <ul class="glide__slides">
+
+                            <li class="glide__slide">
+                                <div class="product">
+                                    <div class="product-img" data-img-1="images/products/son-kem-ysl-425.png" data-img-2="images/products/son-kem-ysl-425-2.png">
+                                        <div class="product-action">
+                                            <a href="" class="btn">
+                                                add to cart
+                                            </a>
+                                            <a href="" class="btn">
+                                                view detail
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="product-info">
+                                        <div class="product-brand">
+                                            <span>YSL</span>
+                                            <div class="rating">
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star-half'></i>
+                                            </div>
+                                        </div>
+                                        <div class="product-name">
+                                            YSL 425
+                                        </div>
+                                        <div class="product-price">
+                                            <del>$130.00</del> <span class="main-color">$125.00</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="glide__slide">
+                                <div class="product">
+                                    <div class="product-img" data-img-1="images/products/christianlouboutin-rougelouboutin-velvet-matte.png" data-img-2="images/products/christianlouboutin-rougelouboutin-velvet-matte-1.png">
+                                        <div class="product-action">
+                                            <a href="" class="btn">
+                                                add to cart
+                                            </a>
+                                            <a href="" class="btn">
+                                                view detail
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="product-info">
+                                        <div class="product-brand">
+                                            <span>Louboutin</span>
+                                            <div class="rating">
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star-half'></i>
+                                            </div>
+                                        </div>
+                                        <div class="product-name">
+                                            Rouge Louboutin Velvet Matte
+                                        </div>
+                                        <div class="product-price">
+                                            <del>$130.00</del> <span class="main-color">$125.00</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="glide__slide">
+                                <div class="product">
+                                    <!-- <a href="" style="display: inline-block;"> -->
+                                    <div class="product-img" data-img-1="images/products/Tom-Ford-RUBY-RUSH.png" data-img-2="images/products/Tom-Ford-RUBY-RUSH-2.png">
+                                        <div class="product-action">
+                                            <a href="" class="btn">
+                                                add to cart
+                                            </a>
+                                            <a href="" class="btn">
+                                                view detail
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- </a> -->
+                                    <a href="#" class="product-info">
+                                        <div class="product-brand">
+                                            <span>Tom Ford</span>
+                                            <div class="rating">
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star-half'></i>
+                                            </div>
+                                        </div>
+                                        <div class="product-name">
+                                            Tom Ford RUBY RUSH
+                                        </div>
+                                        <div class="product-price">
+                                            <del>$130.00</del> <span class="main-color">$125.00</span>
+                                        </div>
+                                    </a href="#">
+                                </div>
+                            </li>
+                            <li class="glide__slide">
+                                <div class="product">
+                                    <div class="product-img" data-img-1="images/products/son-gucci-505-Janet-Rust-Mat-Lipstick.png" data-img-2="images/products/son-gucci-505-Janet-Rust-Mat-Lipstick-2.png">
+                                        <div class="product-action">
+                                            <a href="" class="btn">
+                                                add to cart
+                                            </a>
+                                            <a href="" class="btn">
+                                                view detail
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="product-info">
+                                        <div class="product-brand">
+                                            <span>GUCCI</span>
+                                            <div class="rating">
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star-half'></i>
+                                            </div>
+                                        </div>
+                                        <div class="product-name">
+                                            GUCCI 505 Janet Rust Mat
+                                        </div>
+                                        <div class="product-price">
+                                            <del>$130.00</del> <span class="main-color">$125.00</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="glide__arrows" data-glide-el="controls">
+                        <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+                            <i class='bx bx-chevron-left'></i>
+                        </button>
+                        <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+                            <i class='bx bx-chevron-right'></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END TOP SELLERS SECTION -->
+
+    <!-- SPECIAL SECTION -->
+    <div class="section-special bg-fixed" style="background-image: url(/images/banner/laura-chouette-uedyzm50WTQ-unsplash.jpg);">
+        <div class="row">
+            <div class="col-6"></div>
+            <div class="col-6 bg-main">
+                <div class="special-product">
+                    <span>spring collection</span>
+                    <h2>changing <span class="main-color">the</span> ideal of <span class="main-color">beauty</span></h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur voluptate, fugit deserunt eos eligendi tempora, quaerat, accusantium est quibusdam accusamus ad illo similique tenetur nam quidem reprehenderit culpa explicabo quisquam.</p>
+                    <a href="#" class="btn btn-lg">shop now</a>
+                    <div class="special-product-img" style="background-image: url(./images/banner/johanne-kristensen-1A5hSvPZjMc-unsplash.jpg);"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END SPECIAL SECTION -->
+
+    <!-- NEW TREND SECTION -->
+    <div class="section">
+        <div class="section-header">
+            <span class="main-color">n</span>ew trends
+        </div>
+        <div class="container-fluid">
+            <div class="products-slide">
+                <div class="glide">
+                    <div class="glide__track" data-glide-el="track">
+                        <ul class="glide__slides">
+                            <li class="glide__slide">
+                                <div class="product">
+                                    <!-- <a href="" style="display: inline-block;"> -->
+                                    <div class="product-img" data-img-1="images/products/Tom-Ford-RUBY-RUSH.png" data-img-2="images/products/Tom-Ford-RUBY-RUSH-2.png">
+                                        <div class="product-action">
+                                            <a href="" class="btn">
+                                                add to cart
+                                            </a>
+                                            <a href="" class="btn">
+                                                view detail
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- </a> -->
+                                    <a href="#" class="product-info">
+                                        <div class="product-brand">
+                                            <span>Tom Ford</span>
+                                            <div class="rating">
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star-half'></i>
+                                            </div>
+                                        </div>
+                                        <div class="product-name">
+                                            Tom Ford RUBY RUSH
+                                        </div>
+                                        <div class="product-price">
+                                            <del>$130.00</del> <span class="main-color">$125.00</span>
+                                        </div>
+                                    </a href="#">
+                                </div>
+                            </li>
+                            <li class="glide__slide">
+                                <div class="product">
+                                    <div class="product-img" data-img-1="images/products/son-gucci-505-Janet-Rust-Mat-Lipstick.png" data-img-2="images/products/son-gucci-505-Janet-Rust-Mat-Lipstick-2.png">
+                                        <div class="product-action">
+                                            <a href="" class="btn">
+                                                add to cart
+                                            </a>
+                                            <a href="" class="btn">
+                                                view detail
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="product-info">
+                                        <div class="product-brand">
+                                            <span>GUCCI</span>
+                                            <div class="rating">
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star-half'></i>
+                                            </div>
+                                        </div>
+                                        <div class="product-name">
+                                            GUCCI 505 Janet Rust Mat
+                                        </div>
+                                        <div class="product-price">
+                                            <del>$130.00</del> <span class="main-color">$125.00</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="glide__slide">
+                                <div class="product">
+                                    <div class="product-img" data-img-1="images/products/son-kem-ysl-425.png" data-img-2="images/products/son-kem-ysl-425-2.png">
+                                        <div class="product-action">
+                                            <a href="" class="btn">
+                                                add to cart
+                                            </a>
+                                            <a href="" class="btn">
+                                                view detail
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="product-info">
+                                        <div class="product-brand">
+                                            <span>YSL</span>
+                                            <div class="rating">
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star-half'></i>
+                                            </div>
+                                        </div>
+                                        <div class="product-name">
+                                            YSL 425
+                                        </div>
+                                        <div class="product-price">
+                                            <del>$130.00</del> <span class="main-color">$125.00</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="glide__slide">
+                                <div class="product">
+                                    <div class="product-img" data-img-1="images/products/christianlouboutin-rougelouboutin-velvet-matte.png" data-img-2="images/products/christianlouboutin-rougelouboutin-velvet-matte-1.png">
+                                        <div class="product-action">
+                                            <a href="" class="btn">
+                                                add to cart
+                                            </a>
+                                            <a href="" class="btn">
+                                                view detail
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="product-info">
+                                        <div class="product-brand">
+                                            <span>Louboutin</span>
+                                            <div class="rating">
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star'></i>
+                                                <i class='bx bxs-star-half'></i>
+                                            </div>
+                                        </div>
+                                        <div class="product-name">
+                                            Rouge Louboutin Velvet Matte
+                                        </div>
+                                        <div class="product-price">
+                                            <del>$130.00</del> <span class="main-color">$125.00</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="glide__arrows" data-glide-el="controls">
+                        <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+                            <i class='bx bx-chevron-left'></i>
+                        </button>
+                        <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+                            <i class='bx bx-chevron-right'></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- END NEW TREND SECTION -->
+
+    <!-- GALLERY SECTION -->
+    <div class="section">
+        <div class="section-header">
+            <a href="#">
+                <img src="/images/logo.png" alt="" class="medium-logo">
+            </a>
+        </div>
+        <div class="gallery-slide">
+            <div class="glide__track" data-glide-el="track">
+                <ul class="glide__slides">
+                    <li class="glide__slide">
+                        <a href="#" class="gallery-img">
+                            <div class="img-holder" style="background-image: url(/images/banner/andrey-zvyagintsev-XM8OXHhzOsU-unsplash.jpg);"></div>
+                            <div class="banner-overlay"></div>
+                            <i class='bx bxl-instagram'></i>
+                        </a>
+                    </li>
+                    <li class="glide__slide">
+                        <a href="#" class="gallery-img">
+                            <div class="img-holder" style="background-image: url(/images/banner/andriyko-podilnyk-F4AMM1293ag-unsplash.jpg);"></div>
+                            <div class="banner-overlay"></div>
+                            <i class='bx bxl-instagram'></i>
+                        </a>
+                    </li>
+                    <li class="glide__slide">
+                        <a href="#" class="gallery-img">
+                            <div class="img-holder" style="background-image: url(/images/banner/johanne-kristensen-1A5hSvPZjMc-unsplash.jpg);"></div>
+                            <div class="banner-overlay"></div>
+                            <i class='bx bxl-instagram'></i>
+                        </a>
+                    </li>
+                    <li class="glide__slide">
+                        <a href="#" class="gallery-img">
+                            <div class="img-holder" style="background-image: url(/images/banner/kadian-hall-k7ptCKVdDXE-unsplash.jpg);"></div>
+                            <div class="banner-overlay"></div>
+                            <i class='bx bxl-instagram'></i>
+                        </a>
+                    </li>
+                    <li class="glide__slide">
+                        <a href="#" class="gallery-img">
+                            <div class="img-holder" style="background-image: url(/images/banner/kadian-hall-QixHMdu4THc-unsplash.jpg);"></div>
+                            <div class="banner-overlay"></div>
+                            <i class='bx bxl-instagram'></i>
+                        </a>
+                    </li>
+                    <li class="glide__slide">
+                        <a href="#" class="gallery-img">
+                            <div class="img-holder" style="background-image: url(/images/banner/laura-chouette-uedyzm50WTQ-unsplash.jpg);"></div>
+                            <div class="banner-overlay"></div>
+                            <i class='bx bxl-instagram'></i>
+                        </a>
+                    </li>
+                    <li class="glide__slide">
+                        <a href="#" class="gallery-img">
+                            <div class="img-holder" style="background-image: url(/images/banner/marek-studzinski-mzstXkKH8DI-unsplash.jpg);"></div>
+                            <div class="banner-overlay"></div>
+                            <i class='bx bxl-instagram'></i>
+                        </a>
+                    </li>
+                    <li class="glide__slide">
+                        <a href="#" class="gallery-img">
+                            <div class="img-holder" style="background-image: url(/images/banner/laura-chouette-uedyzm50WTQ-unsplash.jpg);"></div>
+                            <div class="banner-overlay"></div>
+                            <i class='bx bxl-instagram'></i>
+                        </a>
+                    </li>
+                    <li class="glide__slide">
+                        <a href="#" class="gallery-img">
+                            <div class="img-holder" style="background-image: url(/images/banner/kadian-hall-k7ptCKVdDXE-unsplash.jpg);"></div>
+                            <div class="banner-overlay"></div>
+                            <i class='bx bxl-instagram'></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- END GALLERY SECTION -->
+
+    <!-- FOOTER -->
+    <footer class="section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-3">
+                    <div class="footer-content">
+                        <a href="#" class="logo">
+                            <img src="/images/logo.png" alt="">
+                        </a>
+                        <p class="text-gray">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio, doloribus sit deleniti asperiores officiis odit animi, labore laboriosam sunt deserunt dolores molestias accusantium eius fugiat adipisci et repellendus nihil neque.
+                        </p>
+                        <p>
+                            47 Street, Vung Tau City, BR-VT
+                        </p>
+                        <p>
+                            solstore@mail.com
+                        </p>
+                        <div class="social-list">
+                            <a href="#"><i class='bx bxl-facebook'></i></a>
+                            <a href="#"><i class='bx bxl-twitter'></i></a>
+                            <a href="#"><i class='bx bxl-instagram'></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="footer-content">
+                        <div class="footer-content-header">
+                            categories
+                        </div>
+                        <ul>
+                            <li>
+                                <a href="#">categories</a>
+                            </li>
+                            <li>
+                                <a href="#">categories</a>
+                            </li>
+                            <li>
+                                <a href="#">categories</a>
+                            </li>
+                            <li>
+                                <a href="#">categories</a>
+                            </li>
+                            <li>
+                                <a href="#">categories</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="footer-content">
+                        <div class="footer-content-header">
+                            categories
+                        </div>
+                        <ul>
+                            <li>
+                                <a href="#">categories</a>
+                            </li>
+                            <li>
+                                <a href="#">categories</a>
+                            </li>
+                            <li>
+                                <a href="#">categories</a>
+                            </li>
+                            <li>
+                                <a href="#">categories</a>
+                            </li>
+                            <li>
+                                <a href="#">categories</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="footer-content">
+                        <div class="footer-content-header">
+                            categories
+                        </div>
+                        <ul>
+                            <li>
+                                <a href="#">categories</a>
+                            </li>
+                            <li>
+                                <a href="#">categories</a>
+                            </li>
+                            <li>
+                                <a href="#">categories</a>
+                            </li>
+                            <li>
+                                <a href="#">categories</a>
+                            </li>
+                            <li>
+                                <a href="#">categories</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- END FOOTER -->
+
+    <!-- COPYRIGHT -->
+    <div class="copyright">
+        2021 SolStore Cosmetic - <a href="https://www.youtube.com/tuattrananh" target="_blank">Tuat Tran Anh</a>
+    </div>
+    <!-- END COPYRIGHT -->
+
+    <!-- GLIDEJS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+    <!-- THREEJS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r127/three.min.js"></script>
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <!-- HOVER EFFECT -->
+    <script src="/js/hover-effect.umd.js"></script>
+    <!-- APP JS -->
+    <script src="/js/app.js"></script>
+</body>
+
+</html>
